@@ -1,4 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2 {
-  background-color: blue;
+  color: #0004FF;
+  background-color: #92EAE0;
+}
+
+p,
+ul,
+ol {
+  color: #7400FF;
+  text-align: justify;
+}
+
+div {
+  width: 900px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 20px auto;
+}
+
+p:first-of-type {
+  font-weight: bolder;
+}
+
+.ultimate {
+  background-color: #D8F8F9;
+}
+
+#experience {
+  background-color: #3211EE;
+  color: #FFFFFF;
+}
+
+#thought {
+  font-size: 1.3em;
+}
+
+.boring {
+  font-style: italic;
+}
+
+.dont-interfere {
+  margin_top: 1000px;
+}
+
+#horizontal_menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.menu_item {
+  float: left;
+}
+
+.menu_item a {
+  display: block;
+  color: white;
+  background-color: #92EAE0;
+  border: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+h1 {
+  margin-top: 50px;
 }
